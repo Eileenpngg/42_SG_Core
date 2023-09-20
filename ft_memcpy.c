@@ -6,13 +6,13 @@
 /*   By: epng <epng@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 12:11:22 by epng              #+#    #+#             */
-/*   Updated: 2023/09/19 12:12:20 by epng             ###   ########.fr       */
+/*   Updated: 2023/09/19 14:05:24 by epng             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void	*ft_memcpy(void *restrict dst, void *restrict src, size_t n)
+void	*ft_memcpy(void dst, const void src, size_t n)
 {
 	unsigned char	*d;
 	unsigned char	*s;
