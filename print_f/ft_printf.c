@@ -6,7 +6,7 @@
 /*   By: epng <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 15:49:30 by epng              #+#    #+#             */
-/*   Updated: 2023/10/19 23:54:25 by epng             ###   ########.fr       */
+/*   Updated: 2023/10/20 18:25:51 by epng             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_tounsigned(int nbr, char *base, int *count)
 	if (nb < 0)
 	{
 		ft_putchar('-', count);
-		nb *= 1;
+		nb *= -1;
 	}
 	ft_putullnbr(nb, base, count);
 }
